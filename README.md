@@ -1,1 +1,2 @@
 # regina-hha-data-cleanup
+This repo aims to clean up some data healthdata.gov by removing white spaces and special characters within the data and converting data type to its correct type in additon to removing any duplicates found. Last but not least, this repo creates a new column producing true and false statments depending on the values of a pre-existing column.
