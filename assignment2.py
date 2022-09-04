@@ -16,7 +16,7 @@ print(list(df))
 # cleaning column names by eliminating special characters and white space
 df.columns = df.columns.str.replace('[^A-Za-z0-9]+', '_')
 list(df) #to check renamed columns
-df['Week'].head(5)
+
 #Cleaning data within each column with string values
 df['District_Name'] = df['District_Name'].str.replace('[^A-Za-z0-9]+', '_')
 df['Learning_Modality'] = df['Learning_Modality'].str.replace('[^A-Za-z0-9]+', '_')
